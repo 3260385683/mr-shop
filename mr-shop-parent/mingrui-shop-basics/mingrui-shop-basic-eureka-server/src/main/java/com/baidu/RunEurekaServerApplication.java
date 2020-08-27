@@ -16,7 +16,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class RunEurekaServerApplication {
 
     public static void main(String[] args) {
-        System.out.println("测试git");
         SpringApplication.run(RunEurekaServerApplication.class);
     }
 
