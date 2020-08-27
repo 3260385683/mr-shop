@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f46c837-46e1-47d5-937e-8048b829f490" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mingrui-shop-basics/mingrui-shop-basic-eureka-server/src/main/java/com/baidu/RunEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mingrui-shop-basics/mingrui-shop-basic-eureka-server/src/main/java/com/baidu/RunEurekaServerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598509163785</updated>
       <workItem from="1598509165062" duration="1764000" />
-      <workItem from="1598510944851" duration="3365000" />
+      <workItem from="1598510944851" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1598511012830</created>
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598512076126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test1">
+      <created>1598515754775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598515754775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,17 +125,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1598509707409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598509707409" />
-    <state x="110" y="0" key="CommitChangelistDialog2" timestamp="1598512075315">
+    <state x="110" y="0" key="CommitChangelistDialog2" timestamp="1598515753493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="110" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598512075315" />
+    <state x="110" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598515753493" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1598510324931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -186,10 +193,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598510341054" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598515609481">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598515764009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598515609481" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598515764009" />
     <state x="178" y="72" key="new project wizard" timestamp="1598509786082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
