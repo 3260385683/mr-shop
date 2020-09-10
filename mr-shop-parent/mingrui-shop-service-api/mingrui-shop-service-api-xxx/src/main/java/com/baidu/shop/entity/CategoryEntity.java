@@ -1,5 +1,6 @@
 package com.baidu.shop.entity;
 
+import com.baidu.shop.validate.group.MingruiOperation;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -23,23 +24,23 @@ public class CategoryEntity {
 
     @Id
     @ApiModelProperty(value = "分类主键",example = "1")
-    @NotNull(message = "主键不能为空")
+    @NotNull(message = "主键不能为空",groups = {MingruiOperation.Update.class})
     private Integer id;
 
     @ApiModelProperty(value = "分类名称")
-    @NotEmpty(message = "类目名称不能为空")
+    @NotEmpty(message = "类目名称不能为空",groups = {MingruiOperation.Update.class,MingruiOperation.Add.class})
     private String name;
 
     @ApiModelProperty(value = "父类目ID",example = "1")
-    @NotNull(message = "父类目id不能为空")
+    @NotNull(message = "父类目id不能为空",groups = {MingruiOperation.Add.class})
     private Integer parentId;
 
     @ApiModelProperty(value = "是否是父级节点",example = "1")
-    @NotNull(message = "是否是父级节点不能为空")
+    @NotNull(message = "是否是父级节点不能为空",groups = {MingruiOperation.Add.class})
     private Integer isParent;
 
     @ApiModelProperty(value = "排序指数,越小越靠前",example = "1")
-    @NotNull(message = "排序指数不能为空")
+    @NotNull(message = "排序指数不能为空",groups = {MingruiOperation.Add.class})
     private Integer sort;
 
 }
